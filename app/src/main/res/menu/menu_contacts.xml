@@ -1,5 +1,12 @@
+<!-- Menu file for `activity_movies.xml` is located in a file
+     such as `res/menu/menu_movies.xml`  -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ContactsActivity">
-
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="always"
+        android:onClick="onAdd"
+        android:title="Add">
+    </item>
 </menu>
